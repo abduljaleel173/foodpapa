@@ -1,0 +1,38 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+
+.navbar {
+    display: flex;
+    justify-content:space-around;
+    align-items: center;
+    margin-top: 20px;
+    font-size: xx-large;
+    
+    
+    
+}
+.iconbar ul{
+    display: flex;
+    justify-content:space-between;
+    list-style: none;
+    gap: 25px;
+    
+    
+    
+}
+.iconbar a{
+    text-decoration: none;
+    color: black;
+
+}
+.buttonbar button{
+   background-color: yellow;
+   
+    padding: 10px;
+    padding-left: 15px;
+    padding-right: 15px;
+    border-radius: 10px;
+}
